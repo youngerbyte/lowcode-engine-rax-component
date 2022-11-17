@@ -1,0 +1,81 @@
+{
+  "packages": [
+    {
+      "package": "@alife/mobile-page",
+      "version": "0.1.1",
+      "library": "AlifeMobilePage",
+      "urls": [
+        "https://g.alicdn.com/code/npm/@alife/mobile-page/0.1.1/build/lowcode/view.js",
+        "https://g.alicdn.com/code/npm/@alife/mobile-page/0.1.1/build/lowcode/view.css"
+      ],
+      "editUrls": [
+        "https://g.alicdn.com/code/npm/@alife/mobile-page/0.1.1/build/lowcode/view.js",
+        "https://g.alicdn.com/code/npm/@alife/mobile-page/0.1.1/build/lowcode/view.css"
+      ]
+    },
+    {
+      "package": "rax-lowcode-test",
+      "version": "0.0.1-beta.1",
+      "library": "MyBizComponent",
+      "urls": [
+        "./view.js",
+        "./view.css"
+      ],
+      "editUrls": [
+        "./view.js",
+        "./view.css"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "exportName": "AlifeMobilePageMeta",
+      "npm": {
+        "package": "@alife/mobile-page",
+        "version": "0.1.1"
+      },
+      "url": "https://g.alicdn.com/code/npm/@alife/mobile-page/0.1.1/build/lowcode/meta.js",
+      "urls": {
+        "default": "https://g.alicdn.com/code/npm/@alife/mobile-page/0.1.1/build/lowcode/meta.js",
+        "design": "https://g.alicdn.com/code/npm/@alife/mobile-page/0.1.1/build/lowcode/meta.design.js"
+      }
+    },
+    {
+      "exportName": "RaxLowcodeTestMeta",
+      "npm": {
+        "package": "rax-lowcode-test",
+        "version": "0.0.1-beta.1"
+      },
+      "url": "./meta.js",
+      "urls": {
+        "default": "./meta.js",
+        "design": "./meta.design.js"
+      }
+    }
+  ],
+  "sort": {
+    "groupList": [
+      "精选组件",
+      "原子组件"
+    ],
+    "categoryList": [
+      "基础元素",
+      "布局容器类",
+      "表格类",
+      "表单详情类",
+      "帮助类",
+      "对话框类",
+      "业务类",
+      "通用",
+      "引导",
+      "信息输入",
+      "信息展示",
+      "信息反馈"
+    ]
+  },
+  "groupList": [
+    "精选组件",
+    "原子组件"
+  ],
+  "ignoreComponents": {}
+}

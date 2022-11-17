@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DEMO 预览</title>
+    <style>
+      body {
+        font-family: PingFangSC-Regular, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial,
+          PingFang SC-Light, Microsoft YaHei;
+        font-size: 12px;
+
+        * {
+          box-sizing: border-box;
+        }
+      }
+
+      body,
+      #lce-container {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        text-rendering: optimizeLegibility;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-text-size-adjust: none;
+        -webkit-touch-callout: none;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      html {
+        min-width: 1024px;
+      }
+    </style>
+    <link href="https://alifd.alicdn.com/npm/@alifd/theme-lowcode-light@0.2.1/variables.css" rel="stylesheet" />
+    <link href="https://alifd.alicdn.com/npm/@alifd/theme-lowcode-light@0.2.1/dist/next.var.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.0.2/dist/css/engine-core.css" />
+    <link rel="stylesheet" href="https://g.alicdn.com/fusion-design/lowcode-preset-plugin/1.1.4/editor-preset-plugin.css" />
+    <link rel="stylesheet" href="https://alifd.alicdn.com/npm/@alilc/lowcode-engine-ext@1.0.1/dist/css/engine-ext.css" />
+  </head>
+
+  <body>
+    <div id="lce-container"></div>
+    <script src="https://g.alicdn.com/code/lib/rax/1.1.0/rax.umd.min.js"></script>
+    <script src="https://g.alicdn.com/code/lib/react/16.9.0/umd/react.development.js"></script>
+    <script src="https://g.alicdn.com/code/lib/react-dom/16.9.0/umd/react-dom.development.js"></script>
+    <script src="https://g.alicdn.com/code/lib/prop-types/15.7.2/prop-types.js"></script>
+    <script>
+      React.PropTypes = PropTypes;
+    </script>
+    <script src="https://g.alicdn.com/platform/c/??react15-polyfill/0.0.1/dist/index.js,lodash/4.6.1/lodash.min.js,immutable/3.7.6/dist/immutable.min.js,natty-storage/2.0.2/dist/natty-storage.min.js,natty-fetch/2.6.0/dist/natty-fetch.pc.min.js,tinymce/4.2.5/tinymce-full.js"></script>
+    <script src="https://g.alicdn.com/mylib/moment/2.24.0/min/moment.min.js"></script>
+    <script src="https://g.alicdn.com/code/lib/alifd__next/1.23.20/next-with-locales.min.js"></script>
+    <script crossorigin="anonymous" src="https://alifd.alicdn.com/npm/@alilc/lowcode-engine@1.0.2/dist/js/engine-core.js"></script>
+    <script crossorigin="anonymous" src="https://alifd.alicdn.com/npm/@alilc/lowcode-engine-ext@1.0.1/dist/js/engine-ext.js"></script>
+    <script src="https://g.alicdn.com/fusion-design/lowcode-preset-plugin/1.1.4/editor-preset-plugin.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./index.js"></script>
+  </body>
+</html>

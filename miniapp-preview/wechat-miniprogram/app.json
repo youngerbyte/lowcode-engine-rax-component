@@ -1,0 +1,10 @@
+{
+  "window": {
+    "defaultTitle": "Rax Component Preview"
+  },
+  "pages": [
+    "pages/Home/index",
+    "pages/RaxLowcodeTestBasic/index",
+    "pages/RaxLowcodeTestAdvance/index"
+  ]
+}
